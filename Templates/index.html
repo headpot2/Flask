@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+  
+  <h2>Check Literature if Relevant to <u>Removing PFAS in Water using Chemical Method</u></h2>
+  
+  <form method="POST" action="/">
+    <span style="font-size:20px">Abstract</span><br>
+    <textarea name="abstract_text" cols="120" rows="20" maxlength="2400"></textarea>
+    <br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  {% if pred %}
+    <p>The probability that the literature is relevant: {{ pred }}</p>
+  {% endif %}
+
+  </body>
+</html>
