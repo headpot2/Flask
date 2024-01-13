@@ -1,4 +1,4 @@
-# ML Model Deployment - Literature Screening
+# Model Deployment - Literature Screening
 Deploy a Machine Learning Model of literature classifier to Google Cloud Platform (GPC)
 
 Model input: 
